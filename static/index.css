@@ -15,6 +15,26 @@ body {
     width: 94%;
 }
 
+.nav__link {
+    color: black;
+}
+
+.nav__link:hover {
+    text-decoration: none;
+}
+
+.nav__link.active {
+    color: #0056b3;
+}
+
+.title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #33393F;
+    margin-bottom: 20px;
+}
+
 .project {
     padding: 40px 0;
     margin-bottom: 30px;
@@ -22,14 +42,6 @@ body {
 
 .project__assets {
     margin-bottom: 15px;
-}
-
-.project__header .title {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #33393F;
-    margin-bottom: 20px;
 }
 
 .project__description p {
