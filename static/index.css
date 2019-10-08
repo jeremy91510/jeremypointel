@@ -45,14 +45,18 @@ body {
 }
 
 .title3 {
-    font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 22px;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
     font-weight: 400;
     color: #AFAFAF;
     margin-bottom: 20px;
 }
 
 
+
+.logo {
+    width: 90%;
+    }
 
 .project {
     padding: 40px 0;
@@ -154,6 +158,8 @@ body {
     }
 }
 
+
+
 @media only screen and (min-width: 42.5em) {
     .project {
         padding: 70px 0;
@@ -182,5 +188,11 @@ body {
     .project-thumbnail {
         margin: 0 1.9608% 3.9216% 1.9608%;
         width: 29.4118%;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .logo {
+        width: 500px;
     }
 }

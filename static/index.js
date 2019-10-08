@@ -5,7 +5,7 @@ function showProject(id) {
     var project = document.getElementById(id);
 
     if (project) {
-        window.scrollTo(0, 300);
+        window.scrollTo(0, 290);
 
         for (var i = 0; i < projects.length; i++) {
             projects[i].classList.add("d-none");
