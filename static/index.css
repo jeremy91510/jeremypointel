@@ -48,10 +48,17 @@ body {
     font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     font-weight: 400;
-    color: #AFAFAF;
+    color: #878787;
     margin-bottom: 20px;
 }
 
+.title4 {
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #878787;
+    margin-bottom: 20px;
+}
 
 
 .logo {
